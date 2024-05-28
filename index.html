@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Johnnie</title>
+</head>
+<body>
+    <div id="app"> 
+        <h1> Welkom </h1>
+
+        <p>Dit is mijn website</p>
+        voer je wachtwoord maar hier in 
+
+        <form>
+            <label for="password" >password: </label>
+    
+            <input type="password" id="password" required>
+            <button type="submit">enter</button>
+        </form> 
+    </div>
+
+    <script>
+        let password = null;
+        let input = document.getElementById('password');
+        window.addEventListener(SubmitEvent, password=input.value);
+        console.log(password)input
+    </script>
+</body>
+</html>
